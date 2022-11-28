@@ -63,4 +63,5 @@ btnDelete.addEventListener("click", () => {
     listElement.removeChild(taskElement);
 });
 
+userInput.focus();
 });

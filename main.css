@@ -1,0 +1,70 @@
+:root {
+    --dark: #b22f2f;
+    --darker: rgb(144, 13, 13); 
+    --darkest: rgb(34, 1, 1);
+    --gray: grey; 
+    --ligth: white;
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat";
+}
+
+body {
+    background: var(--dark);
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    color: white;
+}
+
+header {
+    padding: 2rem 2rem;
+    max-width: 800px;
+    width: 100%;
+}
+
+h1 {
+   
+    font-size: 2.5rem;
+    font-weight: 400;
+    color: var(--gray); 
+}
+
+form {
+    display: flex;
+}
+
+input, button {
+    appearance: none;
+    border: none;
+    outline: none;
+    background: none;
+}
+
+.input_add {
+    margin-right: 1rem;
+    background-color: var(--darker);
+    padding: 1rem;
+    border-radius: 1rem;
+    font-size: 1.2rem;   
+}
+
+.input_add::placeholder {
+    color: aliceblue;
+}
+
+.input_submit {
+  cursor: pointer;  
+}
+
+.input_submit:hover {
+color: aqua;
+}
+
+.input_submit:active {
+    color: rgb(30, 63, 63);
+}
+
