@@ -8,10 +8,10 @@ const tips = document.querySelector(".tips");
 form.addEventListener("submit", (event) => {
     event.preventDefault();
   const task = userInput.value;
-  if(!task) {
-    tips.innerHTML = "Demasiado alto."; 
+  /* if(!task) {
+    tips.innerHTML = "write something"; 
     return;
-  }
+  } */
 
 const taskElement = document.createElement("div");
 taskElement.classList.add("task_element");
